@@ -25,13 +25,13 @@
 -include device/samsung/lt02lte-common/BoardConfigCommon.mk
 
 # Inherit from proprietary vendor
--include vendor/samsung/lt02ltespr/BoardConfigVendor.mk
+-include vendor/samsung/lt02ltetmo/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := lt02lte,lt02ltespr
+TARGET_OTA_ASSERT_DEVICE := lt02lte,lt02ltetmo
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8930_lt02_spr_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8930_lt02_tmo_defconfig
 
 # Charger
 BOARD_NO_CHARGER_LED := true

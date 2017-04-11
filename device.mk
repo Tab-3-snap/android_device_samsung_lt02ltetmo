@@ -18,10 +18,10 @@
 $(call inherit-product, device/samsung/lt02lte-common/lt02lte-common.mk)
 
 # Also get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/lt02ltespr/lt02ltespr-vendor.mk)
+$(call inherit-product, vendor/samsung/lt02ltetmo/lt02ltetmo-vendor.mk)
 
 # Device overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/lt02ltespr/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/lt02ltetmo/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
